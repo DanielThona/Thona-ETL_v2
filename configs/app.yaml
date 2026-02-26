@@ -1,0 +1,17 @@
+app:
+  name: Thona-ETL_v2
+  timezone: America/Mexico_City
+
+prefect:
+  work_pool: default
+  retries: 3
+  retry_delay_seconds: 30
+
+redshift:
+  schema_stage: stage
+  schema_dwh: dwh
+  schema_logs: logs
+
+etl:
+  default_mode: incremental
+  error_dir: "./_errors"

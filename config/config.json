@@ -1,0 +1,9 @@
+{
+    "notifications": {
+    "smtp_user": "drocha@thonaseguros.mx",
+    "smtp_pass": "your-smtp-password-here",
+    "smtp_host": "smtp.your-email-provider.com",
+    "smtp_port": 587,
+    "recipients": ["recipient1@example.com", "recipient2@example.com"]
+    }
+}
